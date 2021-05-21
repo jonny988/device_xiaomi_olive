@@ -23,5 +23,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-07-01
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
+
 # Inherit from the proprietary version
 include vendor/xiaomi/olive/BoardConfigVendor.mk
