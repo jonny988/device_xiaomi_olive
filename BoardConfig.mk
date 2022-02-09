@@ -7,11 +7,11 @@
 # Inherit from common sdm439-common
 include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/olivelite
+DEVICE_PATH := device/xiaomi/olive
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olivelite
-TARGET_RECOVERY_DEVICE_MODULES := libinit_olivelite
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olive
+TARGET_RECOVERY_DEVICE_MODULES := libinit_olive
 
 # Kernel
 TARGET_KERNEL_CONFIG := olive-perf_defconfig
@@ -24,4 +24,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 VENDOR_SECURITY_PATCH := 2021-07-01
 
 # Inherit from the proprietary version
-include vendor/xiaomi/olivelite/BoardConfigVendor.mk
+include vendor/xiaomi/olive/BoardConfigVendor.mk

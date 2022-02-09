@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_olivelite.mk
+    $(LOCAL_DIR)/lineage_olive.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_olivelite-user \
-    lineage_olivelite-userdebug \
-    lineage_olivelite-eng
+    lineage_olive-user \
+    lineage_olive-userdebug \
+    lineage_olive-eng
